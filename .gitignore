@@ -1,0 +1,24 @@
+.DS_Store
+.dart_tool/
+.packages
+.pub/
+pubspec.lock
+
+# Conventional directory for build outputs
+build/
+# Directory created by dartdoc
+doc/api/
+# vscode
+**/.vscode/**
+!**/.vscode/launch.json
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+**/.fvm/**
+!**/.fvm/fvm_config.json
+**/example/*
+!**example/README.md
+*.bak
